@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Services</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/styles.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/24f8be4579.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<section class="sub-header">
+	<nav>
+		<a href="index.html"><img src="images/logo-white.png" alt="SSM Quality Construction Logo"></a>
+		<div class="nav-links" id="navLinks">
+			<i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="services.html">Services</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</div>
+		<i class="fa-solid fa-bars" onclick="showMenu()"></i>
+	</nav>
+		<h1>Our Services</h1>
+</section>
+
+<!--Common Services-->
+
+<section class="commonservice">
+	<h1>Common Services</h1>
+	<p>Siding, Decking, and Millwork are the three most common services we offer.</p>
+
+	<div class="row">
+		<div class="common-col">
+			<h3>Siding</h3>
+			<p>Siding is a protective material that is put onto the exterior of a house or other similar structures. Siding is what protects the structure from threats such as insects and weather issues, such as wind, rain, hail and even extreme heat and cold tempatures.</p>
+		</div>
+		<div class="common-col">
+			<h3>Decking</h3>
+			<p>A deck is generally an outdoor living space that is built above the ground and connected to the main building. It is normally enclosed by a railing for safety.</p>
+		</div>
+		<div class="common-col">
+			<h3>Millwork</h3>
+			<p>"Millwork is a type of woodwork that is produced in a mill and is for interior decorative purposes. This includes doors, trim, wall paneling, flooring, and any type of molding.</p>
+		</div>
+	</div>
+	
+</section>
+
+<!--Other Services-->
+
+<section class="otherservice">
+	<h1>Other Services We Offer</h1>
+	<p>These are other services we provide</p>
+	
+	<br>
+
+	<div class="row">
+		<div class="other-col">
+			<img src="images/Stone-Cladding-min.jpeg" alt="House with exterior stone desing">
+			<div class="layer">
+				<h3>Stone Cladding</h3>
+			</div>
+		</div>
+		<div class="other-col">
+			<img src="images/Andreys-Sauna-Frame-min.JPG" alt="House frame of a suana">
+			<div class="layer">
+				<h3>Framing</h3>
+			</div>
+		</div>
+		<div class="other-col">
+			<img src="images/House-Complete-LaConner-min.JPG" alt="House being painted">
+			<div class="layer">
+				<h3>Painting</h3>
+			</div>
+		</div>
+	</div>
+
+</section>
+
+<!--Footer-->
+
+<br>
+
+<div class="bottom">
+	<p>This website was made by <br><i class="fa-brands fa-instagram"></i> Daniel Snezhko, Serhiy's Son.</p>
+</div>
+
+<!--JavaScript for Toggle Menu-->
+<script>
+
+	var navLinks = document.getElementById("navLinks")
+	function showMenu(){
+		navLinks.style.right = "0";
+	}
+	function hideMenu(){
+		navLinks.style.right = "-200px";
+	}
+
+</script>
+
+</body>
+</html>

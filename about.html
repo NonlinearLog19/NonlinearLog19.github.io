@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>About Us</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/styles.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/24f8be4579.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<section class="sub-header">
+	<nav>
+		<a href="index.html"><img src="images/logo-white.png" alt="SSM Quality Construction Logo"></a>
+		<div class="nav-links" id="navLinks">
+			<i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="services.html">Services</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</div>
+		<i class="fa-solid fa-bars" onclick="showMenu()"></i>
+	</nav>
+		<h1>About Us</h1>
+</section>
+
+<!--About Us-->
+
+<section class="about-us">
+	
+	<div class="wrapper">
+		<div class="about-col">
+			<h1>More About Us</h1>
+			<br>
+			<img src="images/Owners-min.JPG" alt="Serhiy and Viktoriya Snizhko">
+			<p>The owner of SSM Quality Construction, Serhiy Snizhko, grew up in Ukraine and moved to the United States in 2006. Serhiy loved building things from a young age. He has been working with his hands, building, and creating ever since. When Serhiy moved to the U.S to live and work with family, he learned the ins and outs of construction, and his desire to make this his profession grew.</p>
+			<p>Serhiy started working for a relative that is a General Contractor and gained additional experience. After working for many other people, the time had come to open his own general contractor business. So, in August of 2007, SSM Quality Construction was born.</p>
+			<p>From the start, Serhiy hired a relative. They started with small jobs, decks, sheds, one-room remodels, etc., SSM Quality Construction became known for their quality work and efficiency. This led to greater and harder projects such as custom homes, commercial buildings, and complete home remodels.</p>
+			<p>For further and more specific details about the work we do, visit the <a href="services.html" class="footer-links">Services</a> page.</p>
+		</div>
+	</div>
+
+</section>
+
+
+<!--Times and Services-->
+
+<section class="commonservice">
+
+	<div class="row">
+		<div class="common-col">
+			<h3>Buisness Hours</h3>
+			<p>Mon-Fri: 8am - 5pm</p>
+			<p>Sat: Closed</p>
+			<p>Sunday: Closed</p>
+		</div>
+		<div class="common-col">
+			<h3>About Us</h3>
+			<p>SSM Quality Construction, LLC. provides custom home building, commercial services, and more around the Mount Vernon, WA area.</p>
+		</div>
+		<div class="common-col">
+			<h3>Services</h3>
+			<p>Custom Homes</p>
+			<p>Comercial Buildings</p>
+			<p>Residential Homes</p>
+			<p>Remodels</p>
+		</div>
+	</div>
+	
+</section>
+
+<!--Footer-->
+
+<br>
+
+<section class="footer">
+	<h4>About Us</h4>
+	<p>To learn more about our services, visit the <a href="services.html" class="footer-links">Services</a> page.</p>
+	<br>
+</section>
+
+<div class="bottom">
+	<p>This website was made by <br><i class="fa-brands fa-instagram"></i> Daniel Snezhko, Serhiy's Son.</p>
+</div>
+
+<!--JavaScript for Toggle Menu-->
+<script>
+
+	var navLinks = document.getElementById("navLinks")
+	function showMenu(){
+		navLinks.style.right = "0";
+	}
+	function hideMenu(){
+		navLinks.style.right = "-200px";
+	}
+
+</script>
+
+</body>
+</html>
